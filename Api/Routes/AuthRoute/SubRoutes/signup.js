@@ -63,7 +63,7 @@ router.post("/", async (req, res) => {
 			}
 
 			if (existingUser_username && existingUser_email) {
-				msg = "This email and username are already registered with Ratera";
+				msg = "This email and username are already registered with Qrate";
 			}
 
 			return res.status(403).send({

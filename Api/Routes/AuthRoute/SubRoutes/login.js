@@ -49,7 +49,7 @@ router.post("/", async (req, res) => {
 				isAdmin: user.isAdmin,
 			},
 			process.env.SECRET_KEY,
-			{ expiresIn: "6h" }
+			{ expiresIn: "24h" }
 		);
 
 		// SET THE TOKEN AS HTTP-ONLY COOKIE

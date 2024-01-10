@@ -102,6 +102,11 @@ const userSchema = new mongoose.Schema(
 			default: false,
 		},
 
+		getTheme: {
+			type: String,
+			default: "",
+		},
+
 		token: {
 			type: String,
 		},
